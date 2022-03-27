@@ -34,8 +34,6 @@ def main_function():
     try:
         # step- 0 initialising selenium
         driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
-        # chrome_driver_path = "C:\Development\chromedriver.exe"
-        # driver = webdriver.Chrome(executable_path=chrome_driver_path)
         driver.get("https://www.tinder.com")
         driver.maximize_window()
 
